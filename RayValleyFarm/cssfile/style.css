@@ -1,0 +1,513 @@
+header {
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    padding-right: 0.625rem;
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
+    justify-content: space-between;
+}
+
+nav .rayvalley-logo {
+    width: 8.152rem;
+    height: 5.3125rem;
+
+}
+
+nav ul {
+
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    font-size: 0.9375rem;
+    padding-top: 1.25rem;
+    padding-right: 1rem;
+
+}
+
+nav li {
+    margin-right: 1.25rem;
+
+}
+
+
+.login {
+    color: #25d366;
+    padding-top: 2.3125rem;
+    padding-left: 1.5rem;
+    font-family: sans-serif;
+
+
+
+
+}
+
+.login-btn {
+    background-color: #53c351;
+    border-radius: 0.62rem;
+    width: 6.25rem;
+    height: 2.1875rem;
+    color: #ffff;
+    cursor: pointer;
+    border: none;
+    border-color: #254330;
+}
+
+.login-btn:hover {
+    background-color: #33e875;
+    border-color: #254330;
+}
+
+.hamburger {
+    display: none;
+}
+
+main {
+    overflow: hidden;
+}
+
+/* hero section*/
+.hero {
+    display: flex;
+}
+
+.heromess {
+    width: 50%;
+    margin-right: 0;
+    margin-left: 3.75rem;
+    margin-top: 3.25rem;
+    padding-top: 3.25rem;
+}
+
+.heroimg {
+    width: 50%;
+    margin-right: 6.25rem;
+
+
+}
+
+.heroimg img {
+    width: auto;
+    height: 20rem;
+}
+
+.join-btn-div {
+    padding-left: 3.25rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+
+
+}
+
+.join-btn {
+    background-color: #53c351;
+    border-radius: 0.62rem;
+    width: 6.25rem;
+    height: 2.1875rem;
+    font-size: 0.875rem;
+    color: #ffff;
+    cursor: pointer;
+    border-color: #53c351;
+}
+
+.join-btn:hover {
+    border-color: #254330;
+    background-color: #33e875;
+}
+
+
+.join {
+    display: flex;
+}
+
+/* steps to star your farm section*/
+.Steps-0 {
+
+    justify-content: space-around;
+}
+
+.Steps-mess {
+    justify-content: center;
+    text-align: center;
+}
+
+.Steps {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.25rem;
+    text-align: center;
+    padding: 20rem;
+
+}
+
+.Steps-1 {
+    padding-right: 3.25rem;
+}
+
+.Steps-2 {
+    padding-right: 3.25rem;
+}
+
+.Steps-3 {
+    padding-left: 3.25rem;
+}
+
+/* make green section */
+.make-green {
+    display: flex;
+
+}
+
+.make-green-img {
+    width: 50%;
+    justify-content: center;
+}
+
+.make-green-mess {
+    width: 50%;
+    margin-right: 3.25rem;
+    padding-right: 3.25rem;
+    margin-top: 3.25rem;
+    padding-top: 3.25rem;
+}
+
+.make-green-btn1 {
+    width: 7.5rem;
+    height: 2.1875rem;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    background: #254330;
+    border-radius: 0.62rem;
+    color: #ffff;
+
+
+}
+
+.make-green-btn1:hover {
+    border-color: #53c351;
+    cursor: pointer;
+
+}
+
+.Livestock {
+    display: flex;
+}
+
+.Livestock-mess {
+    width: 50%;
+}
+
+.Livestock-img {
+    width: 50%;
+}
+
+.Livestock-btn {
+    display: flex;
+    color: #53c351;
+
+}
+
+.Livestock-btn0 {
+    padding-top: 1rem;
+}
+
+.Livestock-btn1 {
+    margin-right: 1rem;
+    width: 8.5rem;
+    height: 2.1875rem;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    background: #ffff;
+    border-radius: 0.62rem;
+    border-color: #53c351;
+    color: #53c351;
+    cursor: pointer;
+}
+
+.Livestock-btn1:hover {
+    border-color: #254330;
+    background-color: aliceblue;
+}
+
+/* cash cropping section  */
+
+.Cash-cropping {
+    display: flex;
+}
+
+.Cash-cropping-mess {
+    width: 50%;
+}
+
+.Cash-cropping-img {
+    width: 50%;
+}
+
+.Cash-cropping-btn1 {
+    margin-right: 1rem;
+    width: 8.5rem;
+    height: 2.1875rem;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    background: #ffff;
+    border-radius: 0.62rem;
+    border-color: #53c351;
+    color: #53c351;
+    cursor: pointer;
+}
+
+.Cash-cropping-btn1:hover {
+    border-color: #254330;
+    background-color: azure;
+}
+
+/* before-footer-section */
+.b-footer {
+    background-color: #1C3A27;
+    margin: 9.375rem 18rem 1.875rem 12.5rem;
+    padding: 1.875rem;
+    border-radius: 2.5rem 2.5rem 2.5rem 0.3125rem;
+    height: 10.25rem;
+    display: flex;
+    padding-right: 2rem;
+
+}
+
+.b-footer-mess {
+    padding-right: 20rem;
+    position: relative;
+    color: #ffff;
+}
+
+.b-footer-btn {
+    padding-left: 3.25rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+
+}
+
+.b-footer-btn0 {
+    background-color: #53c351;
+    border-radius: 0.62rem;
+    width: 6.25rem;
+    height: 2.1875rem;
+    font-size: 0.875rem;
+    color: #ffff;
+    cursor: pointer;
+    border-color: #53c351;
+}
+
+.img3 {
+    position: absolute;
+    right: 25rem;
+    bottom: -128.3rem;
+}
+
+.img-0 {
+    position: absolute;
+    right: 38rem;
+    bottom: -125rem;
+}
+
+.img-1 {
+    position: absolute;
+    right: 60rem;
+    bottom: -125rem;
+}
+
+/* footer  */
+.final-footer {
+    justify-content: center;
+    text-align: center;
+}
+
+/* media queries */
+
+@media screen and (max-width:46.875rem) {
+
+    /* nav media query */
+    .nav-ul,
+    .login {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-right: 0rem;
+        padding-right: 0rem;
+    }
+
+    .hamburger:hover {
+        background-color: #1C3A27;
+    }
+
+    /* hero section  */
+    .hero {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .heromess {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding-top: 0.5rem;
+        margin-top: 0.5rem;
+        padding-left: 0rem;
+        margin-left: 0rem;
+    }
+
+
+    .heroimg {
+        width: auto;
+        display: none;
+    }
+
+    .heroimg0 {
+        width: 1px;
+        height: 2rem;
+    }
+
+    .join {
+        justify-content: center;
+        padding-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    /* steps section  */
+    .Steps0 {
+        justify-content: center;
+        text-align: center;
+        width: auto;
+
+    }
+
+    .Steps-mess {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: auto;
+        padding-top: 2rem;
+
+    }
+
+    .Steps {
+        width: auto;
+        justify-content: center;
+        padding-top: 1rem;
+        padding: 1rem;
+    }
+
+    /* make green section  */
+
+    .make-green {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .make-green-mess {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        top: -25rem;
+    }
+
+    .make-green-img {
+        width: 100%;
+        padding-top: 1rem;
+        position: relative;
+        top: 17rem;
+
+    }
+
+    /* livestock farming */
+    .Livestock {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .Livestock-mess {
+        justify-content: center;
+        text-align: center;
+        width: auto;
+
+    }
+
+    .Livestock-btn {
+        justify-content: center;
+    }
+
+    /* cash cropping section  */
+    .Cash-cropping {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .Cash-cropping-img {
+        position: relative;
+        top: 16rem;
+    }
+
+    .Cash-cropping-mess {
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        padding-top: 1rem;
+
+    }
+
+    .Cash-cropping-mess0 {
+        position: relative;
+        top: -20rem;
+    }
+
+    /* before footer section */
+    .b-footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: transparent;
+        margin: 0rem;
+        padding: 0rem;
+        border-radius: none;
+
+    }
+
+    .before-footer-section {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        background-color: #254330;
+
+    }
+
+    .b-footer-mess {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+
+    .b-footer-img01 {
+        display: none;
+    }
+
+    .b-footer-img3 {
+        display: none;
+    }
+
+
+}
